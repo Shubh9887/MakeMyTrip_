@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-24T16:27:38 IST" name="Suite" finished-at="2023-07-24T16:28:22 IST" duration-ms="43869">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T16:27:38 IST" name="Test" finished-at="2023-07-24T16:28:22 IST" duration-ms="43869">
+      <class name="testClasses.ReviewPage_TestClass">
+        <test-method signature="validateDatesOnReviewPage()[pri:0, instance:testClasses.ReviewPage_TestClass@815b41f]" started-at="2023-07-24T16:28:18 IST" name="validateDatesOnReviewPage" finished-at="2023-07-24T16:28:18 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatesOnReviewPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ReviewPage_TestClass@815b41f]" started-at="2023-07-24T16:28:18 IST" name="afterMethod" finished-at="2023-07-24T16:28:19 IST" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDatesOnReviewPage status=SUCCESS method=ReviewPage_TestClass.validateDatesOnReviewPage()[pri:0, instance:testClasses.ReviewPage_TestClass@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ReviewPage_TestClass -->
+      <class name="testClasses.SelectFlight_TestClass">
+        <test-method signature="selectFlights()[pri:0, instance:testClasses.SelectFlight_TestClass@3b69e7d1]" started-at="2023-07-24T16:28:16 IST" name="selectFlights" finished-at="2023-07-24T16:28:16 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlights -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.SelectFlight_TestClass@3b69e7d1]" started-at="2023-07-24T16:28:16 IST" name="afterMethod" finished-at="2023-07-24T16:28:18 IST" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFlights status=SUCCESS method=SelectFlight_TestClass.selectFlights()[pri:0, instance:testClasses.SelectFlight_TestClass@3b69e7d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.SelectFlight_TestClass -->
+      <class name="testClasses.BaseClass">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testClasses.BaseClass@6b2ea799]" started-at="2023-07-24T16:27:38 IST" name="beforeTest" finished-at="2023-07-24T16:27:51 IST" duration-ms="12781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testClasses.BaseClass@6b2ea799]" started-at="2023-07-24T16:28:19 IST" name="afterTest" finished-at="2023-07-24T16:28:22 IST" duration-ms="2644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testClasses.BaseClass -->
+      <class name="testClasses.HomePage_TestClass">
+        <test-method signature="enterDetailsForBooking()[pri:0, instance:testClasses.HomePage_TestClass@7586beff]" started-at="2023-07-24T16:27:51 IST" name="enterDetailsForBooking" finished-at="2023-07-24T16:28:14 IST" duration-ms="23221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetailsForBooking -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePage_TestClass@7586beff]" started-at="2023-07-24T16:28:14 IST" name="afterMethod" finished-at="2023-07-24T16:28:16 IST" duration-ms="1583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterDetailsForBooking status=SUCCESS method=HomePage_TestClass.enterDetailsForBooking()[pri:0, instance:testClasses.HomePage_TestClass@7586beff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.HomePage_TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
